@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Death Note</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 1.6;
+      color: #2b2b2b;
+      min-height: 100vh;
+      background: #e8e8e8;
+    }
+    .page {
+      max-width: 700px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 35px 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #8b0000;
+      border-bottom: 3px solid #8b0000;
+      padding-bottom: 10px;
+      margin-top: 0;
+    }
+    h2 {
+      color: #8b0000;
+      margin-top: 35px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 15px 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+    a {
+      color: #8b0000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul, ol {
+      background: #f5f5f5;
+      padding: 15px 35px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+    }
+    li {
+      margin: 6px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+  <!-- 1. Heading and Paragraph -->
+  <h1>Welcome to the Death Note world</h1>
+  <p>
+Death Note is a widely acclaimed supernatural thriller manga and anime created by Tsugumi Ohba and Takeshi Obata. 
+The story follows brilliant high school student Light Yagami, who discovers a supernatural notebook that kills anyone whose name is written in it. 
+He uses it to rid the world of criminals under the alias "Kira," while evading a genius detective known as "L".
+  </p>
+  <!-- 2. Image and Hyperlink -->
+  <h2>An Image</h2>
+  <img src="https://placehold.co/600x300/1a1a1a/ffffff?text=DEATH+NOTE" alt="A simple placeholder image for Death Note">
+  <h2>A Hyperlink</h2>
+  <p>
+    Visit the <a href="https://en.wikipedia.org/wiki/Death_Note" target="_blank" rel="noopener noreferrer">Death Note Wikipedia page</a>
+    to learn more about the series.
+  </p>
+  <!-- 3. Ordered and Unordered Lists -->
+  <h2>Unordered List (MAIN CHARACTERS)</h2>
+  <ul>
+    <li>Light Yagami </li>
+    <li>L (L Lawliet)</li>
+    <li>Ryuk</li>
+    <li>Misa Amane</li>
+  </ul>
+  <h2>Ordered List (RULES TO USE DEATH NOTE)</h2>
+  <ol>
+    <li>Only a notebook touched by its original owner can take a life when a name is written within it.</li>
+    <li>A face must be pictured clearly while writing the name, to avoid affecting someone who shares it.</li>
+    <li>Without a stated cause, the person simply passes from a heart attack.</li>
+    <li>A specific cause of death can be set, as long as it is written within a short window after the name.</li>
+    <li>Details of the death may be added afterward, within a further short window, to shape exactly how it happens.</li>
+  </ol>
+  </div>
+</body>
+</html>
