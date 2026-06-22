@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Argentina Football Team</title>
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Argentina Football Team</h1>
+
+    <!-- Inline CSS -->
+    <p style="color: darkblue; font-size: 22px;">
+        Welcome to the Argentina Football Team Fan Page!
+    </p>
+
+    <h2>Star Players</h2>
+
+    <table>
+        <tr>
+            <th>Player Name</th>
+            <th>Position</th>
+            <th>Jersey Number</th>
+        </tr>
+
+        <tr>
+            <td>Lionel Messi</td>
+            <td>Forward</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Julian Alvarez</td>
+            <td>Forward</td>
+            <td>9</td>
+        </tr>
+
+        <tr>
+            <td>Enzo Fernandez</td>
+            <td>Midfielder</td>
+            <td>24</td>
+        </tr>
+
+        <tr>
+            <td>Rodrigo De Paul</td>
+            <td>Midfielder</td>
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td>Emiliano Martinez</td>
+            <td>Goalkeeper</td>
+            <td>23</td>
+        </tr>
+    </table>
+
+</body>
+</html>
