@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Newsletter Subscription Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: rgba(89, 100, 252, 0.342);
+        }
+
+        form {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: rgba(31, 45, 109, 0.596);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 90%;
+            padding: 8px;
+            margin: 10px 0;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Newsletter Subscription</h2>
+    <p>Subscribe to our newsletter to receive the latest updates and offers.</p>
+    <form onsubmit="showMessage(event)">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Subscribe">
+    </form>
+    <script>
+    function showMessage(event) {
+        event.preventDefault(); // Prevents the page from refreshing
+        alert("Successfully Submitted!");
+        document.querySelector("form").reset(); // Clears the form
+    }
+</script>
+</body>
+</html>
