@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Birthday Wishes</title>
+        <style>
+            body {
+                background-color: #f0e6f6;
+                font-family: 'Arial', sans-serif;
+                text-align: center;
+                margin-top: 100px;
+            }
+            h2 {
+                color: #ff69b4;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: #ff69b4;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #ff1493;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="wish">🎂 Click the button for a surprise!</h2>
+        <button onclick="showWish()">Show Wish</button>
+        <script>
+            function showWish() {
+                alert("🎉 Happy Birthday! Have a fantastic day!!");
+                document.getElementById("wish").textContent = "🎁 Wishing you happiness, health, and success in the year ahead!";
+            }
+        </script>
+    </body>
+</html>
